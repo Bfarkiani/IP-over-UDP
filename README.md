@@ -9,7 +9,7 @@ This project mimics a WireGuard VPN without encryption. You will need to configu
 - **udp_endpoints**: UDP endpoints where the VPN server is listening.
 - **routes**: These are used to configure `iptables` to redirect traffic through the tunnel device created by the VPN.
 
-For each route, the VPN needs to know where to send the traffic. Therefore, the keys in `routes` and `udp_endpoints` must match. However, you can specify different UDP endpoints for each route.
+For each route, the VPN needs to know where to send the traffic. Therefore, `routes` and `udp_endpoints` keys must match. However, you can specify different UDP endpoints for each route.
 
 ### Example
 
